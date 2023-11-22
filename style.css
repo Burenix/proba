@@ -4,12 +4,13 @@ html, body{
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: repeat(3, 33.33%);
+    grid-template-columns: repeat(3, 33.34%);
+    grid-template-rows: repeat(3, 33.25%);
     height:100%;
 }
 .grid div{
     height: 100%;
+    border: solid 0.01px black;
 }
 .she{
     background: url('Злюка.gif') 50% 50% no-repeat !important;
@@ -119,11 +120,3 @@ html, body{
 a {
   font-family: cursive;
 }
-
-@keyframes tilt-shaking {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(5deg); }
-  50% { transform: rotate(0eg); }
-  75% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
-} 
